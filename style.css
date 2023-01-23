@@ -427,6 +427,7 @@ button {
     width: 90vw;
     padding: 1vw 0.3vw;
     white-space: nowrap;
+    /* background-color: red; */
     overflow-x: auto;
     overflow-y: hidden;
 }
@@ -441,7 +442,7 @@ button {
 }
 
 .page_3_cards{
-    height: 40vmax;
+    height: 37vmax;
     width: 22vmax;
     border-radius: 18px;
     background-color: rgba(0, 0, 0, 0.467);
@@ -452,7 +453,7 @@ button {
     overflow: hidden;
     position: relative;
     margin-right: 1.6vmax;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.453);
+    box-shadow: 0 0 10px rgb(41, 36, 36);
 }
 
 .page_3_cards img{
@@ -474,6 +475,87 @@ button {
     color: white;
 }
 .page_3_cards span{
+    height: 2vmax;
+    width: 5vmax;
+    padding: 0.5vmax;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.476);
+    font-size: 0.8vmax;
+    font-family: "primary";
+    color: white;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-top: 2vmax;
+}
+
+
+/* page_2 */
+
+.page_4 {
+    min-height: 100vh;
+    width: 100vw;
+    position: relative;
+    padding: 3vw;
+    background: linear-gradient(to right,#020406,#080d0e,black,black);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.page_4_head h1{
+    font-family: "secondry";
+    font-size: 4vmax;
+    color: white;
+    font-weight: 700;
+}
+
+/*  */
+
+.page_4_cards_container{
+    min-height: fit-content;
+    width: 90vw;
+    padding: 3vw 1.5vw;
+    overflow-x: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.page_4_card{
+    height: 37vmax;
+    width: 20vmax;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.467);
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    margin-right: 1.6vmax;
+    margin-bottom: 4vmax;
+    box-shadow: 0 0 10px rgb(41, 36, 36);
+}
+
+.page_4_card img{
+    height: 30vmax;
+    width: 22vmax;
+    object-fit: cover;
+}
+
+
+.page_4_card_txts{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0.6vmax 0;
+}
+
+.page_4_card h2{
+    font-size: 1.3vmax;
+    font-family: "primary";
+    color: white;
+}
+.page_4_card span{
     height: 2vmax;
     width: 5vmax;
     padding: 0.5vmax;
