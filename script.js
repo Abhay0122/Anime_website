@@ -104,7 +104,7 @@ var arr = [
     { img: "/images/blue lock.jpg", name: "Blue Lock", episode: "Ep - 15" },
     { img: "/images/anos.jpg", name: "The demon Academy season 2", episode: "Ep - 03 " },
     { img: "/images/Digimon Ghost Game.jpg", name: "Digimon Ghost Game", episode: "Ep - 06" },
-    { img: "/images/boku.jpg", name: "Boku to Roboko", episode: "Ep - " },
+    { img: "/images/boku.jpg", name: "Boku to Roboko", episode: "Ep - 01" },
     { img: "/images/Delicious Party♡Precure.png", name: "Delicious Party♡Precure", episode: "Ep - 44" },
 
 ];
