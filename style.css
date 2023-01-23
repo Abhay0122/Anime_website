@@ -10,6 +10,45 @@ body {
     width: 100%;
 }
 
+
+/* pre_loader */
+
+.pre_loader {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    position: fixed;
+    z-index: 9999999999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader {
+    height: 30vmax;
+    width: 30vmax;
+    background-image: url(/images/loader.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    transform-origin: top;
+}
+
+
+/* cursor */
+.cursor{
+    position: fixed;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #fff;
+    transition: 0.1s;
+    transform: translate(-50%,-50%);
+    pointer-events: none;
+    z-index: 99999999;
+    mix-blend-mode: difference;
+}
+
 /*  */
 @font-face {
     font-family: "primary";
@@ -568,3 +607,7 @@ button {
     border-radius: 5px;
     margin-top: 2vmax;
 }
+
+
+
+                                        /* ----END--- */

@@ -1,3 +1,41 @@
+// cursor
+const cursor = document.querySelector('.cursor');
+document.addEventListener("mousemove", (e) => {
+    var y = e.clientY
+    var x = e.clientX
+    cursor.style.left = x + "px";
+    cursor.style.top = y + "px";
+});
+
+const p = document.querySelector('.paragraph');
+const p2 = document.querySelector('.paragraph-2');
+
+p.addEventListener("mouseenter", () => {
+    cursor.style.transform = "scale(6)"
+})
+p.addEventListener("mouseleave", () => {
+    cursor.style.transform = "scale(1)"
+})
+// -----
+p2.addEventListener("mouseenter", () => {
+    cursor.style.transform = "scale(6)"
+})
+p2.addEventListener("mouseleave", () => {
+    cursor.style.transform = "scale(1)"
+})
+
+// -----------------------------------------------------------------------
+
+// loader:::
+
+var preloader = document.querySelector(".pre_loader");
+
+setTimeout(function webloader() {
+    preloader.style.display = 'none';
+}, 4000);
+
+// -----------------------------------------------------------------------
+
 // swiper
 
 var swiper = new Swiper(".mySwiper", {
@@ -17,6 +55,7 @@ var swiper = new Swiper(".mySwiper", {
         slideShadows: true,
     }
 });
+// -----------------------------------------------------------------------
 
 // overlay
 
@@ -35,6 +74,7 @@ menubtn.addEventListener("click", () => {
         flag = 1;
     }
 })
+// -----------------------------------------------------------------------
 
 // card-page_3
 
@@ -71,7 +111,7 @@ function show() {
 };
 
 show();
-
+// -----------------------------------------------------------------------
 
 // card-page_4
 
@@ -115,3 +155,5 @@ function showCard() {
 };
 
 showCard();
+
+// -----------------------------------------------------------------------
