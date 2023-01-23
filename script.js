@@ -36,6 +36,20 @@ setTimeout(function webloader() {
 
 // -----------------------------------------------------------------------
 
+//nav_scroll_bg-clr 
+
+window.addEventListener('scroll', function () {
+    let navbar = document.querySelector("nav");
+    if (window.pageYOffset > 0) {
+        navbar.classList.add("navScroll");
+    }
+    else {
+        navbar.classList.remove("navScroll");
+    }
+});
+
+
+
 // swiper
 
 var swiper = new Swiper(".mySwiper", {
