@@ -1,0 +1,257 @@
+@media only screen and (max-width: 600px) {
+
+    /* .loader */
+    .loader {
+        width: 40vmax;
+        height: 40vmax;
+    }
+
+    .cursor {
+        display: none;
+    }
+
+    /* menu-overlay */
+
+    .menu-overlay {
+        width: 100vw;
+        padding: 3vw;
+        justify-content: center;
+        background-color: #010303f7;
+    }
+
+    .menu-overlay h1 {
+        top: 14vmax;
+        left: 15vmax;
+        font-size: 5vmax;
+    }
+
+    .menu-overlay ul {
+        margin-top: 6vmax;
+    }
+
+    .menu-overlay ul li {
+        font-size: 2.5vmax;
+        margin: 2vmax 0;
+    }
+
+    hr {
+        width: 28vmax;
+        margin: 3.5vmax 0;
+    }
+
+    nav {
+        min-height: 12vh;
+    }
+
+    .menu-btn i {
+        font-size: 2.3vmax;
+    }
+
+    .nav-middle {
+        display: none;
+    }
+
+    .nav-right-btn-1 {
+        padding: 1.3vh 5vw;
+        font-size: 1.2vmax;
+        margin-right: 0.7vmax;
+    }
+
+    .nav-right-btn-2 {
+        padding: 1.7vh 5vw;
+        font-size: 1.2vmax;
+    }
+
+    .page_1_overlay {
+        flex-direction: column;
+    }
+
+    /* .page-1-left */
+
+    .page_1 {
+        background-size: cover;
+        background-position: 80% 50%;
+        background-repeat: no-repeat;
+    }
+
+    .page-1-left {
+        min-height: fit-content;
+        width: 100vw;
+        padding: 28vw 5vw 5vw 5vw;
+    }
+
+    .page_1_left_content_wrapper h1 {
+        font-size: 7vmax;
+    }
+
+    .page_1_left_content_wrapper span {
+        font-size: 7vmax;
+    }
+
+    .page_1_left_content_wrapper p {
+        width: 80%;
+        font-size: 1.5vmax;
+    }
+
+
+    .btn-1 {
+        padding: 1.3vh 5vw;
+        font-size: 1.2vmax;
+        margin-right: 0.7vmax;
+    }
+
+    .btn-2 {
+        padding: 1.7vh 5vw;
+        font-size: 1.2vmax;
+    }
+
+    /*  */
+
+    /* page-1-right */
+    .page-1-right {
+        min-height: fit-content;
+        width: 100vw;
+        padding: 3vw 0;
+    }
+
+    .swiper-slide div>span {
+        font-size: 2vmax;
+    }
+
+    /* page_2 */
+
+    .page_2 {
+        min-height: 65vh;
+    }
+
+    .page-2-center_div {
+        background-position: 50% 50%;
+        min-height: fit-content;
+        width: 80vw;
+        margin-top: 5vmax;
+    }
+
+    .page-2-center_div_overlay {
+        flex-direction: column;
+        min-height: fit-content;
+    }
+
+    .page-2-center_div_overlay_left {
+        min-height: fit-content;
+        width: 100%;
+    }
+
+    .page-2-center_div_overlay_left img {
+        height: 38vmax;
+    }
+
+    /* page-2-center_div_overlay_right */
+    .page-2-center_div_overlay_right {
+        min-height: fit-content;
+        width: 100%;
+    }
+
+    .page-2-center_div_overlay_right_txt h2 {
+        font-size: 2.2vmax;
+    }
+
+    .page-2-center_div_overlay_right_txt h1 {
+        font-size: 3.5vmax;
+        margin: 0.7vmax 0;
+    }
+
+    .page-2-center_div_overlay_right_txt p {
+        font-size: 1.4vmax;
+        margin: 2vmax 0;
+    }
+
+    .page-2-center_div_overlay_right_txt button {
+        padding: 1.5vh 4.3vw;
+        font-size: 1.3vmax;
+        margin-top: 1.3vmax;
+    }
+
+    /* page_3 */
+
+    .page_3 {
+        min-height: 70vh;
+        padding: 3vw;
+    }
+
+    .page_3_head h1 {
+        font-size: 5.5vmax;
+    }
+
+    /*  */
+
+    .page_3-main-card_container {
+        min-height: fit-content;
+        width: 94vw;
+    }
+
+    .page_3_cards {
+        height: 44vmax;
+        width: 25vmax;
+        border-radius: 10px;
+    }
+
+    .page_3_cards img {
+        height: 32vmax;
+        width: 25vmax;
+    }
+
+    .page_3_cards h2 {
+        font-size: 1.8vmax;
+        width: 70%;
+        white-space: pre-wrap;
+    }
+
+    .page_3_cards span {
+        height: 3vmax;
+        width: 8vmax;
+        font-size: 1.4vmax;
+    }
+
+    /* page_2 */
+
+    .page_4 {}
+
+    .page_4_head h1 {
+        font-size: 6vmax;
+    }
+
+    /*  */
+
+    .page_4_cards_container {
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+        padding: 5vw 1vw;
+    }
+
+    .page_4_card {
+        height: 44vmax;
+        width: 21vmax;
+        margin-right: 1.7vmax;
+    }
+
+    .page_4_card img {
+        height: 32vmax;
+    }
+
+    .page_4_card h2 {
+        font-size: 1.8vmax;
+        white-space: pre-wrap;
+    }
+
+    .page_4_card span {
+        height: 2.8vmax;
+        width: 8vmax;
+        padding: 0.7vmax;
+        font-size: 1.2vmax;
+        margin-top: 3vmax;
+    }
+
+}
+
+/*-----------------------------------------End----------------------------------------*/

@@ -11,7 +11,7 @@ body {
     background-color: black;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -354,7 +354,7 @@ button {
     font-weight: 400;
 }
 
-/* page_1 */
+/* page_2 */
 
 .page_2 {
     min-height: 100vh;
@@ -448,7 +448,7 @@ button {
     margin-top: 1vmax;
 }
 
-/* page_2 */
+/* page_3 */
 
 .page_3 {
     min-height: 100vh;
